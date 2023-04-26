@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+   /* border: 2px solid salmon; */
+   margin: 0;
+   
+}
+.container>h4{
+    height: 3vmax;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1vmax;
+    /* display: flex; */
+    /* justify-content: center; */
+    text-align: center;
+    background-color: rgb(228, 228, 222);
+}
+#sign{
+    height: 2vmax;
+
+    position: absolute;
+    left: 40vmax;
+}
+#btn{
+    font-size: 2vh;
+    height: 4vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    left: 52vmax;
+    cursor: pointer;
+    transition: .5s;
+
+    
+}
+#btn:hover{
+    background-color: rgb(226, 110, 43);
+}
